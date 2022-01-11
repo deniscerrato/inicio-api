@@ -9,7 +9,7 @@ const app = express()
 const puerto = process.env.PORT || 3000;
 
 
-let datos = [{ id: 1, nombre: "CPU" }, { id: 2, nombre: "MOUSE" }]
+let datos = [{ id: 1, nombre: "CPU" }, { id: 2, nombre: "MOUSE" },{ id: 3, nombre: "TECLADO" }]
 let users = [{ user: "tobi", edad: 22 }]
 // middelwares
 app.use(express.json())
